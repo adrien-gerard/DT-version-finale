@@ -1,0 +1,152 @@
+@import url("components/cards.css");
+@import url("components/squares.css");
+@import url("components/stuffs.css");
+@import url("components/legal.css");
+
+
+
+
+header {
+   background-color: #121640;
+    
+    background-attachment: fixed;
+
+  }
+h1 {
+color: white;
+ font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  display : flex;
+  align-items: center;
+  color: white;
+  }
+
+#a{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  box-shadow: 2px 2px 3px white;
+  font-family: 'Kanit', sans-serif;
+  border-radius: 55px;
+}
+
+input:hover{
+  color: blue;
+  background-color: #ee3ec9;
+}
+
+#b{
+  width: 40px;
+  margin-bottom: -15px;
+  margin-right: 5px;
+}
+
+#c{
+  display : flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 3px white;
+  border-radius: 30px;
+  margin-top: 60px;
+  align-items: center;
+  background-color:#121640;
+
+}
+#d{
+  display : flex;
+  background-color:#ee3ec9;
+  justify-content: space-evenly;
+}
+
+#c,audio{
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
+  color:black;
+  font-family: 'Kanit', sans-serif;
+}
+
+li {
+ font-family: 'Kanit', sans-serif;
+ display : flex;
+ align-items: under;
+}
+
+h3 {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+}
+
+footer {
+  display: flex;
+background-color: #121640;
+background-attachment: fixed;
+color:white;
+
+}
+
+h6 {
+
+  width: 100px;
+  height: 100px;
+  color : white;
+
+}
+a {
+  color : white
+}
+
+.slider {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 40px;
+    color: white;
+ font-family: 'Kanit', sans-serif;
+  }
+  .slides {
+    width: calc(500px * 3);
+    animation: glisse 8s infinite;
+  }
+  .slide {
+    float: left;
+  }
+
+.slides img {
+  width: 500px;
+  height: 335px;
+}
+  @keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-500px);
+    }
+    43% {
+      transform: translateX(-500px);
+    }
+    66% {
+      transform: translateX(-1000px);
+    }
+    76% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+
+
+

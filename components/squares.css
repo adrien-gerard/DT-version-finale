@@ -1,0 +1,14 @@
+.squares {
+  display : flex;
+  width: 1600px;
+  height: 100px;
+
+
+
+}
+.squares img {
+  width: 80px;
+  height: 60px;
+  margin-left: 0px;
+  margin-top: 15px;
+}

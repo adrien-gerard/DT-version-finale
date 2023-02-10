@@ -1,0 +1,28 @@
+.cards {
+  display : flex;
+  flex-direction: row;
+  font-family: 'Kanit', sans-serif;
+  width: 580px;
+  height: 180px;
+  margin-left: -600px;
+  margin-top: 50px;
+  background-color: #121640;
+  border-radius: 12px;
+  box-shadow: 2px 2px 3px white;
+
+
+}
+.card{
+  display : flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  align-items: left;
+  font-family: 'Kanit', sans-serif;
+  color: white;
+
+}
+
+
+
+
